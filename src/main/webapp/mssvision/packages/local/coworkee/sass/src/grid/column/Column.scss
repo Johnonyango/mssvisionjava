@@ -1,0 +1,35 @@
+.x-gridcolumn {
+    .x-title-el {
+        @include single-text-shadow();
+        cursor: pointer;
+    }
+
+    .x-trigger-el {
+        cursor: pointer;
+    }
+
+    .x-header-el {
+        background-color: $fmPrimary;
+    }
+
+    .x-header-el {
+        background-color: $fmPrimary;
+    }
+}
+
+.x-gridcolumn :hover{
+    background-color: $fmSecondary !important;
+}
+
+.x-gridcell {
+    //color: #0d1114;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.x-gridcell :hover{
+    background-color: lighten(#398B93, 50%);
+    font-weight: 900;
+    cursor: pointer;
+}
